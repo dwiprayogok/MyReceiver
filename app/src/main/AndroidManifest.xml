@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.btpns.myreceiver">
-
-    <uses-permission android:name="com.btpns.platform.android.READ_ACCOUNT" />
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.btpns.platform.android.DAM_SYNC"/>
 
     <application
         android:allowBackup="true"
@@ -22,7 +21,6 @@
         </activity>
 
         <receiver android:name=".Receiver"
-            android:permission="com.btpns.platform.android.READ_ACCOUNT"
             android:exported="true"
             android:enabled="true">
             <intent-filter>
