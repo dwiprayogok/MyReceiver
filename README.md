@@ -1,0 +1,2 @@
+# MyReceiver
+dummy receiver
