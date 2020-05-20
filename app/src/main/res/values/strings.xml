@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyReceiver</string>
+
+    <string name="activity_id">902bc76b-6978-4b8b-93db-7edd076a1b05</string>
+    <string name="prs_id">724170299</string>
+
+
 </resources>
